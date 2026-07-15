@@ -55,3 +55,41 @@ REG_OpNoMask = true
 ```lua
 REG_NoBlendCtrls = false
 ```
+### REG_NoObjMatCtrls 禁用对象/材质 ID 遮罩控制
+```lua
+REG_NoObjMatCtrls = true
+```
+### REG_NoMotionBlurCtrls 禁用动态模糊
+```lua
+REG_NoMotionBlurCtrls = true
+```
+### REG_Fuse_NoEdit 隐藏源码编辑
+```lua
+REG_Fuse_NoEdit = false
+```
+### REG_Fuse_NoReload 隐藏热重载
+```lua
+REG_Fuse_NoReload = false
+```
+### REG_Version 版本
+```lua
+REG_Version = 1
+```
+## 实例
+```lua
+FuRegisterClass("ExampleColorCorrector", CT_Tool, {
+    REGS_Name             = "Ex1_BrightContrast",
+    REGS_Category         = "Fuses\\Examples",
+    REGS_OpIconString     = "E1BC",
+    REGS_OpDescription    = "Example1, using the functions of Color Matrix",
+    REGS_HelpTopic        = "Example Location of Help",
+    REGS_URL              = "www.blackmagicdesign.com",
+    REG_OpNoMask          = true,
+    REG_NoBlendCtrls      = false,
+    REG_NoObjMatCtrls     = true,
+    REG_NoMotionBlurCtrls = true,
+    REG_Fuse_NoEdit       = false,
+    REG_Fuse_NoReload     = false,
+    REG_Version           = 1,
+})
+```
