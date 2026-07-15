@@ -51,3 +51,7 @@ REGS_IconID = "Icons.Tools.Icons.Example"
 ```lua
 REG_OpNoMask = true
 ```
+### REG_NoBlendCtrls 禁用混合控制
+```lua
+REG_NoBlendCtrls = false
+```
