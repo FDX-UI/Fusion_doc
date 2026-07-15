@@ -72,7 +72,6 @@ REG_Fuse_NoEdit = false
 REG_Fuse_NoReload = false
 ```
 ### REG_Fuse_TilePic 更换自定义图标
-最小
 ```lua
 Icon_A = {
     Width = 10,
