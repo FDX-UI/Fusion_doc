@@ -50,6 +50,7 @@ function Create()
         INP_MinScale       = -1.0,
         INP_Default        = 0.0,
     })
+
     nContrast = self:AddInput("Contrast", "Contrast", {
         LINKID_DataType    = "Number",
         INPID_InputControl = "SliderControl",
