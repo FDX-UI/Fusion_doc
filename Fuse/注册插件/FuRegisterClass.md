@@ -21,29 +21,29 @@ CT_ViewLUTPlugin -- 视图 LUT 插件
 属性表决定插件的属性
 ### REGS_Name 显示名称
 ```lua
-REGS_Name = "Ex1_BrightContrast" -- string
+REGS_Name = "Ex1_BrightContrast"
 ```
 ### REGS_Category 菜单位置
 ```lua
-REGS_Category = "Fuses\\Examples" -- string
+REGS_Category = "Fuses\\Examples"
 ```
 ### REGS_OpIconString 缩写
 ```lua
-REGS_OpIconString = "E1BC" -- string
+REGS_OpIconString = "E1BC"
 ```
 ### REGS_OpDescription 简短描述
 ```lua
-REGS_OpDescription = "Example, showing the various Controls in Fusion" -- string
+REGS_OpDescription = "Example, showing the various Controls in Fusion"
 ```
 ### REGS_HelpTopic 帮助文档的链接、路径或标识符
 ```lua
-REGS_HelpTopic = "Example Location of Help" -- string
+REGS_HelpTopic = "Example Location of Help"
 ```
 ### REGS_URL 网站链接
 ```lua
-REGS_URL = "www.blackmagicdesign.com" -- string
+REGS_URL = "www.blackmagicdesign.com"
 ```
 ### REGS_IconID 自定义图标
 ```lua
-REGS_IconID = "Icons.Tools.Icons.Example" -- string
+REGS_IconID = "Icons.Tools.Icons.Example"
 ```
