@@ -7,7 +7,7 @@ function FuRegisterClass(
     attributes, -- 表格
 )
 ```
-## ClassType类型有
+## ClassType参数
 决定插件是什么类型的
 ```lua
 CT_Tool
