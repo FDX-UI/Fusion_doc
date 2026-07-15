@@ -31,3 +31,7 @@ REGS_Category = "Fuses\\Examples" -- string
 ```lua
 REGS_OpIconString = "E1BC" -- string
 ```
+### REGS_OpDescription 简短描述 (必填)
+```lua
+REGS_OpDescription = "Example, showing the various Controls in Fusion" -- string
+```
