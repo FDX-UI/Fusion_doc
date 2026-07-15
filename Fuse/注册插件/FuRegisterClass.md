@@ -16,7 +16,6 @@ CT_Tool          -- 标准图像处理工具
 CT_Modifier      -- 修饰器
 CT_SourceTool    -- 源工具
 CT_ViewLUTPlugin -- 视图 LUT 插件
-...
 ```
 ## attributes
 属性表决定插件的属性
