@@ -33,7 +33,7 @@ REGS_OpIconString = "E1BC"
 ```
 ### REGS_OpDescription 简短描述
 ```lua
-REGS_OpDescription = "Example, showing the various Controls in Fusion"
+REGS_OpDescription = "Example1, using the functions of Color Matrix"
 ```
 ### REGS_HelpTopic 帮助文档的链接、路径或标识符
 ```lua
@@ -46,4 +46,8 @@ REGS_URL = "www.blackmagicdesign.com"
 ### REGS_IconID 自定义图标
 ```lua
 REGS_IconID = "Icons.Tools.Icons.Example"
+```
+### REG_OpNoMask 禁用效果遮罩
+```lua
+REG_OpNoMask = true
 ```
