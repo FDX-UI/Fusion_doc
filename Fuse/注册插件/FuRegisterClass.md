@@ -20,6 +20,15 @@ CT_ViewLUTPlugin -- 视图 LUT 插件
 ```
 ## attributes
 属性表决定插件的属性
+### REGS_Name 显示名称
 ```lua
-
+REGS_Name = "Ex1_BrightContrast" -- string
+```
+### REGS_Category 菜单位置 (必填)
+```lua
+REGS_Category = "Fuses\\Examples" -- string
+```
+### REGS_OpIconString 缩写 (必填)
+```lua
+REGS_OpIconString = "E1BC" -- string
 ```
