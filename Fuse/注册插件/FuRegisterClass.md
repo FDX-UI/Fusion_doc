@@ -35,3 +35,15 @@ REGS_OpIconString = "E1BC" -- string
 ```lua
 REGS_OpDescription = "Example, showing the various Controls in Fusion" -- string
 ```
+### REGS_HelpTopic 帮助文档的链接、路径或标识符
+```lua
+REGS_HelpTopic = "Example Location of Help" -- string
+```
+### REGS_URL 网站链接
+```lua
+REGS_URL = "www.blackmagicdesign.com" -- string
+```
+### REGS_IconID 自定义图标
+```lua
+REGS_IconID = "Icons.Tools.Icons.Example" -- string
+```
