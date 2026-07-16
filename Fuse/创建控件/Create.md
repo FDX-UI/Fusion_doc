@@ -37,7 +37,7 @@ function AddOutput(
 ```lua
 OutImage = self:AddOutput("Output", "Output", {
     LINKID_DataType = "Image",
-    LINK_Main = 1,
+    LINK_Main       = 1,
 })
 ```
 ### AddControlPage 添加选项卡
