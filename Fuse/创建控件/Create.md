@@ -48,9 +48,9 @@ self:AddControlPage("Color Controls")
 ### EndControlNest 结束控件嵌套组
 ```lua
 function BeginControlNest(
-    name   -- 显示标签
-    _id    -- 脚本名称
-    expand -- 展开状态
+    name,   -- 显示标签
+    _id,    -- 脚本名称
+    expand  -- 展开状态
 (
 ```
 ```lua
