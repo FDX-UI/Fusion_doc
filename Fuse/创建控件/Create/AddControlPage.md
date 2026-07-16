@@ -2,8 +2,8 @@
 添加选项卡
 ```lua
 function AddControlPage(
-    Name,    -- 显示标签
-    firsttag -- 属性表
+    Name,    -- string
+    firsttag -- table
 )
 ```
 ## Name 参数
