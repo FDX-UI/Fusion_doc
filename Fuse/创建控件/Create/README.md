@@ -41,9 +41,6 @@ OutImage = self:AddOutput("Output", "Output", {
 })
 ```
 ### AddControlPage 添加选项卡
-```lua
-self:AddControlPage("Color Controls")
-```
 ### RemoveControlPage 删除选项卡
 ```lua
 self:RemoveControlPage("Controls")
