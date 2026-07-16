@@ -15,6 +15,8 @@ function AddControlPage(
 CT_Visible = false
 ```
 ### CTID_DIB_ID 图标
+...\Fusion 版本\Skins
+用解压工具打开Fusion.fuskin
 ```lua
 CTID_DIB_ID = "Icons.Tools.Tabs.Color"
 ```
