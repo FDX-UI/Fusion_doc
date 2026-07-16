@@ -8,7 +8,7 @@ function Create()
 ```lua
 function AddInput(
     labelname,  -- 显示标签
-    scriptname, -- 内部名称
+    scriptname, -- 脚本名称
     attributes  -- 属性表
 )
 ```
@@ -30,7 +30,7 @@ InImage = self:AddInput("Input", "Input", {
 ```lua
 function AddOutput(
     labelname,  -- 显示标签
-    scriptname, -- 内部名称
+    scriptname, -- 脚本名称
     attributes  -- 属性表
 )
 ```
@@ -39,6 +39,24 @@ OutImage = self:AddOutput("Output", "Output", {
     LINKID_DataType = "Image",
     LINK_Main = 1,
 })
+```
+### AddControlPage 添加选项卡
+```lua
+self:AddControlPage("Color Controls")
+```
+### BeginControlNest 开始控件嵌套组
+### EndControlNest 结束控件嵌套组
+```lua
+function BeginControlNest(
+    name   -- 显示标签
+    _id    -- 脚本名称
+    expand -- 展开状态
+(
+```
+```lua
+self:BeginControlNest("Color Picker", "ColorPicker", true)
+ -- 控件
+self:EndControlNest()
 ```
 ## 实例
 ```lua
