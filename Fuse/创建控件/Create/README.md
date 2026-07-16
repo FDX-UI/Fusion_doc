@@ -42,9 +42,6 @@ OutImage = self:AddOutput("Output", "Output", {
 ```
 ### AddControlPage 添加选项卡
 ### RemoveControlPage 删除选项卡
-```lua
-self:RemoveControlPage("Controls")
-```
 ### BeginControlNest 开始控件嵌套组
 ### EndControlNest 结束控件嵌套组
 ```lua
