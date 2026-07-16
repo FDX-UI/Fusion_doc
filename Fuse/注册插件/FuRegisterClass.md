@@ -43,7 +43,9 @@ REGS_HelpTopic = "Example Location of Help"
 ```lua
 REGS_URL = "www.blackmagicdesign.com"
 ```
-### REGS_IconID 自定义图标
+### REGS_IconID 图标
+...\Fusion 版本\Skins<br>
+用解压工具打开Fusion.fuskin
 ```lua
 REGS_IconID = "Icons.Tools.Icons.Example"
 ```
@@ -71,7 +73,7 @@ REG_Fuse_NoEdit = false
 ```lua
 REG_Fuse_NoReload = false
 ```
-### REG_Fuse_TilePic 更换自定义图标
+### REG_Fuse_TilePic 自定义图标
 ```lua
 Icon_A = {
     Width = 10,
