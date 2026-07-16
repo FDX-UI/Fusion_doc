@@ -6,7 +6,7 @@ function AddControlPage(
     firsttag -- 属性表
 )
 ```
-## Name 参数 (必填)
+## Name 参数
 唯一标识
 ## firsttag 参数
 属性表决定选项卡的属性
