@@ -21,6 +21,7 @@ LINKID_DataType = "Number"
 ```lua
 INPID_InputControl = "SliderControl"
 ```
+## 实例
 ```lua
 InBright = self:AddInput("Brightness","Brightness", {
     LINKID_DataType    = "Number",
