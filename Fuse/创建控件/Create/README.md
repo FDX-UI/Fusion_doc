@@ -44,18 +44,6 @@ OutImage = self:AddOutput("Output", "Output", {
 ### RemoveControlPage 删除选项卡
 ### BeginControlNest 开始控件嵌套组
 ### EndControlNest 结束控件嵌套组
-```lua
-function BeginControlNest(
-    name,   -- 显示标签
-    _id,    -- 脚本名称
-    expand  -- 展开状态
-(
-```
-```lua
-self:BeginControlNest("Color Picker", "ColorPicker", true)
- -- 控件
-self:EndControlNest()
-```
 ## 实例
 ```lua
 function Create()
