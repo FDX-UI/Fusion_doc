@@ -6,19 +6,6 @@ function Create()
 ## self 对象
 ### AddInput 添加输入
 ### AddOutput 添加输出
-```lua
-function AddOutput(
-    labelname,  -- 显示标签
-    scriptname, -- 脚本名称
-    attributes  -- 属性表
-)
-```
-```lua
-OutImage = self:AddOutput("Output", "Output", {
-    LINKID_DataType = "Image",
-    LINK_Main       = 1,
-})
-```
 ### AddControlPage 添加选项卡
 ### RemoveControlPage 删除选项卡
 ### BeginControlNest 开始控件嵌套组
