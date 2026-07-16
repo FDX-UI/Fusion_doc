@@ -23,6 +23,6 @@ CTID_DIB_ID = "Icons.Tools.Tabs.Color"
 ## 实例
 ```lua
 function Create()
-    self:AddControlPage("hi")
+    self:AddControlPage("Color Controls")
 end
 ```
