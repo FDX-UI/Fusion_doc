@@ -9,6 +9,5 @@ function RemoveControlPage(
 唯一标识
 ## 实例
 ```lua
-function Create()
-    self:RemoveControlPage("Color Controls")
-end
+self:RemoveControlPage("Color Controls")
+```
